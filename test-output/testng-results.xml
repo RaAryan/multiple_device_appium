@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="7" failed="2" total="16" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG Forum" duration-ms="279473" started-at="2016-05-30T06:08:22Z" finished-at="2016-05-30T06:13:02Z">
+    <groups>
+    </groups>
+    <test name="TestNG Test1" duration-ms="151781" started-at="2016-05-30T06:08:22Z" finished-at="2016-05-30T06:10:54Z">
+      <class name="com.test.ios.HomePageTest6">
+        <test-method status="SKIP" signature="beforeClass()[pri:0, instance:[HomePageTest6 passed=0 failed=0 skipped=0]]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-05-30T11:40:54Z" finished-at="2016-05-30T11:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:[HomePageTest6 passed=0 failed=0 skipped=0]]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-05-30T11:40:54Z" finished-at="2016-05-30T11:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="SKIP" signature="testMethodTwelve_12()[pri:0, instance:[HomePageTest6 passed=0 failed=0 skipped=0]]" name="testMethodTwelve_12" duration-ms="0" started-at="2016-05-30T11:40:54Z" finished-at="2016-05-30T11:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodTwelve_12 -->
+        <test-method status="SKIP" signature="startApp(java.lang.reflect.Method)[pri:0, instance:[HomePageTest6 passed=0 failed=0 skipped=0]]" name="startApp" is-config="true" duration-ms="0" started-at="2016-05-30T11:40:54Z" finished-at="2016-05-30T11:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="SKIP" signature="killServer(org.testng.ITestResult)[pri:0, instance:[HomePageTest6 passed=0 failed=0 skipped=0]]" name="killServer" is-config="true" duration-ms="0" started-at="2016-05-30T11:40:54Z" finished-at="2016-05-30T11:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killServer -->
+      </class> <!-- com.test.ios.HomePageTest6 -->
+      <class name="com.test.site.HomePageTest1">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="beforeClass" is-config="true" duration-ms="25695" started-at="2016-05-30T11:38:22Z" finished-at="2016-05-30T11:38:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="startApp(java.lang.reflect.Method)[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="startApp" is-config="true" duration-ms="27087" started-at="2016-05-30T11:38:48Z" finished-at="2016-05-30T11:39:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.site.HomePageTest1.testMethodOne_1() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="SKIP" signature="testMethodOne_1()[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="testMethodOne_1" duration-ms="0" started-at="2016-05-30T11:39:15Z" finished-at="2016-05-30T11:39:15Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipped because property was set to :::AndroidDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipped because property was set to :::AndroidDriver
+	at com.appium.manager.AppiumParallelTest.onTestStart(AppiumParallelTest.java:459)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1700)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1675)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:619)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodOne_1 -->
+        <test-method status="PASS" signature="killServer(org.testng.ITestResult)[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="killServer" is-config="true" duration-ms="1709" started-at="2016-05-30T11:39:15Z" finished-at="2016-05-30T11:39:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethodOne_1 on [HomePageTest1 passed=0 failed=0 skipped=0] status=SKIP method=HomePageTest1.testMethodOne_1()[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killServer -->
+        <test-method status="PASS" signature="startApp(java.lang.reflect.Method)[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="startApp" is-config="true" duration-ms="14456" started-at="2016-05-30T11:39:17Z" finished-at="2016-05-30T11:39:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.site.HomePageTest1.testMethodOne_10() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="SKIP" signature="testMethodOne_10()[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="testMethodOne_10" duration-ms="0" started-at="2016-05-30T11:39:31Z" finished-at="2016-05-30T11:39:31Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipped because property was set to :::AndroidDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipped because property was set to :::AndroidDriver
+	at com.appium.manager.AppiumParallelTest.onTestStart(AppiumParallelTest.java:459)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1700)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1675)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:619)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodOne_10 -->
+        <test-method status="PASS" signature="killServer(org.testng.ITestResult)[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="killServer" is-config="true" duration-ms="617" started-at="2016-05-30T11:39:31Z" finished-at="2016-05-30T11:39:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethodOne_10 on [HomePageTest1 passed=0 failed=0 skipped=0] status=SKIP method=HomePageTest1.testMethodOne_10()[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killServer -->
+        <test-method status="PASS" signature="startApp(java.lang.reflect.Method)[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="startApp" is-config="true" duration-ms="13823" started-at="2016-05-30T11:39:32Z" finished-at="2016-05-30T11:39:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.site.HomePageTest1.testMethodOne_11() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="testMethodOne_11()[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="testMethodOne_11" duration-ms="7729" started-at="2016-05-30T11:39:46Z" finished-at="2016-05-30T11:39:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodOne_11 -->
+        <test-method status="PASS" signature="killServer(org.testng.ITestResult)[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="killServer" is-config="true" duration-ms="1181" started-at="2016-05-30T11:39:53Z" finished-at="2016-05-30T11:39:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethodOne_11 on [HomePageTest1 passed=0 failed=0 skipped=0] status=SUCCESS method=HomePageTest1.testMethodOne_11()[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killServer -->
+        <test-method status="PASS" signature="startApp(java.lang.reflect.Method)[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="startApp" is-config="true" duration-ms="13864" started-at="2016-05-30T11:39:55Z" finished-at="2016-05-30T11:40:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.site.HomePageTest1.testMethodOne_6() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="testMethodOne_6()[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="testMethodOne_6" duration-ms="10016" started-at="2016-05-30T11:40:08Z" finished-at="2016-05-30T11:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodOne_6 -->
+        <test-method status="PASS" signature="killServer(org.testng.ITestResult)[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="killServer" is-config="true" duration-ms="886" started-at="2016-05-30T11:40:18Z" finished-at="2016-05-30T11:40:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethodOne_6 on [HomePageTest1 passed=0 failed=0 skipped=0] status=SUCCESS method=HomePageTest1.testMethodOne_6()[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killServer -->
+        <test-method status="PASS" signature="startApp(java.lang.reflect.Method)[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="startApp" is-config="true" duration-ms="13102" started-at="2016-05-30T11:40:19Z" finished-at="2016-05-30T11:40:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.site.HomePageTest1.testMethodOne_7() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="FAIL" signature="testMethodOne_7()[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="testMethodOne_7" duration-ms="4052" started-at="2016-05-30T11:40:32Z" finished-at="2016-05-30T11:40:37Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 682 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'shambhu', ip: '192.168.1.192', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=E:/Woekspace/Appium-Grid-For-Android/src/example/AndroidCalculator.apk, appPackage=com.android2.calculator3, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=feb9fac2, platform=LINUX, appActivity=com.android2.calculator3.Calculator, desired={app=E:/Woekspace/Appium-Grid-For-Android/src/example/AndroidCalculator.apk, appPackage=com.android2.calculator3, appActivity=com.android2.calculator3.Calculator, platformVersion=5.X, browserName=, platformName=Android, deviceName=Android}, platformVersion=5.0.2, webStorageEnabled=false, locationContextEnabled=false, browserName=, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 4bdb4f64-8e78-4589-a39f-a0bd0cf9a0d9
+*** Element info: {Using=id, value=com.android2.calculator3:id/digit33}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 682 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'shambhu', ip: '192.168.1.192', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=E:/Woekspace/Appium-Grid-For-Android/src/example/AndroidCalculator.apk, appPackage=com.android2.calculator3, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=feb9fac2, platform=LINUX, appActivity=com.android2.calculator3.Calculator, desired={app=E:/Woekspace/Appium-Grid-For-Android/src/example/AndroidCalculator.apk, appPackage=com.android2.calculator3, appActivity=com.android2.calculator3.Calculator, platformVersion=5.X, browserName=, platformName=Android, deviceName=Android}, platformVersion=5.0.2, webStorageEnabled=false, locationContextEnabled=false, browserName=, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 4bdb4f64-8e78-4589-a39f-a0bd0cf9a0d9
+*** Element info: {Using=id, value=com.android2.calculator3:id/digit33}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:59)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:51)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.test.site.HomePageTest1.testMethodOne_7(HomePageTest1.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodOne_7 -->
+        <test-method status="PASS" signature="killServer(org.testng.ITestResult)[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="killServer" is-config="true" duration-ms="4800" started-at="2016-05-30T11:40:37Z" finished-at="2016-05-30T11:40:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethodOne_7 on [HomePageTest1 passed=0 failed=0 skipped=0] status=FAILURE method=HomePageTest1.testMethodOne_7()[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killServer -->
+        <test-method status="FAIL" signature="startApp(java.lang.reflect.Method)[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="startApp" is-config="true" duration-ms="0" started-at="2016-05-30T11:40:41Z" finished-at="2016-05-30T11:40:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.site.HomePageTest1.testMethodOne_8() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[A new session could not be created. (Original error: Could not push strings.json) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 8.68 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'shambhu', ip: '192.168.1.192', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: io.appium.java_client.android.AndroidDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: A new session could not be created. (Original error: Could not push strings.json) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 8.68 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'shambhu', ip: '192.168.1.192', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: io.appium.java_client.android.AndroidDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:39)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:69)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:78)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:67)
+	at com.appium.manager.AppiumParallelTest.startAppiumServerInParallel(AppiumParallelTest.java:146)
+	at com.test.site.UserBaseTest.startApp(UserBaseTest.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:589)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="SKIP" signature="killServer(org.testng.ITestResult)[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="killServer" is-config="true" duration-ms="0" started-at="2016-05-30T11:40:54Z" finished-at="2016-05-30T11:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killServer -->
+        <test-method status="SKIP" signature="testMethodOne_8()[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="testMethodOne_8" duration-ms="0" started-at="2016-05-30T11:40:54Z" finished-at="2016-05-30T11:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodOne_8 -->
+        <test-method status="SKIP" signature="killServer(org.testng.ITestResult)[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="killServer" is-config="true" duration-ms="0" started-at="2016-05-30T11:40:54Z" finished-at="2016-05-30T11:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killServer -->
+        <test-method status="SKIP" signature="testMethodOne_9()[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="testMethodOne_9" duration-ms="0" started-at="2016-05-30T11:40:54Z" finished-at="2016-05-30T11:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodOne_9 -->
+        <test-method status="SKIP" signature="startApp(java.lang.reflect.Method)[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="startApp" is-config="true" duration-ms="0" started-at="2016-05-30T11:40:54Z" finished-at="2016-05-30T11:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-05-30T11:40:54Z" finished-at="2016-05-30T11:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.test.site.HomePageTest1 -->
+    </test> <!-- TestNG Test1 -->
+    <test name="TestNG Test0" duration-ms="279473" started-at="2016-05-30T06:08:22Z" finished-at="2016-05-30T06:13:02Z">
+      <class name="com.test.ios.HomePageTest6">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:[HomePageTest6 passed=0 failed=0 skipped=0]]" name="beforeClass" is-config="true" duration-ms="17507" started-at="2016-05-30T11:42:12Z" finished-at="2016-05-30T11:42:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="startApp(java.lang.reflect.Method)[pri:0, instance:[HomePageTest6 passed=0 failed=0 skipped=0]]" name="startApp" is-config="true" duration-ms="15450" started-at="2016-05-30T11:42:30Z" finished-at="2016-05-30T11:42:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.ios.HomePageTest6.testMethodTwelve_12() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="testMethodTwelve_12()[pri:0, instance:[HomePageTest6 passed=0 failed=0 skipped=0]]" name="testMethodTwelve_12" duration-ms="14935" started-at="2016-05-30T11:42:45Z" finished-at="2016-05-30T11:43:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodTwelve_12 -->
+        <test-method status="PASS" signature="killServer(org.testng.ITestResult)[pri:0, instance:[HomePageTest6 passed=0 failed=0 skipped=0]]" name="killServer" is-config="true" duration-ms="1475" started-at="2016-05-30T11:43:00Z" finished-at="2016-05-30T11:43:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethodTwelve_12 on [HomePageTest6 passed=0 failed=0 skipped=0] status=SUCCESS method=HomePageTest6.testMethodTwelve_12()[pri:0, instance:[HomePageTest6 passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killServer -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:[HomePageTest6 passed=0 failed=0 skipped=0]]" name="afterClass" is-config="true" duration-ms="179" started-at="2016-05-30T11:43:02Z" finished-at="2016-05-30T11:43:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.test.ios.HomePageTest6 -->
+      <class name="com.test.site.HomePageTest1">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="beforeClass" is-config="true" duration-ms="25697" started-at="2016-05-30T11:38:22Z" finished-at="2016-05-30T11:38:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="startApp(java.lang.reflect.Method)[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="startApp" is-config="true" duration-ms="24865" started-at="2016-05-30T11:38:48Z" finished-at="2016-05-30T11:39:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.site.HomePageTest1.testMethodOne_1() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="SKIP" signature="testMethodOne_1()[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="testMethodOne_1" duration-ms="1" started-at="2016-05-30T11:39:13Z" finished-at="2016-05-30T11:39:13Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipped because property was set to :::AndroidDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipped because property was set to :::AndroidDriver
+	at com.appium.manager.AppiumParallelTest.onTestStart(AppiumParallelTest.java:459)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1700)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1675)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:619)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodOne_1 -->
+        <test-method status="PASS" signature="killServer(org.testng.ITestResult)[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="killServer" is-config="true" duration-ms="2546" started-at="2016-05-30T11:39:13Z" finished-at="2016-05-30T11:39:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethodOne_1 on [HomePageTest1 passed=0 failed=0 skipped=0] status=SKIP method=HomePageTest1.testMethodOne_1()[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killServer -->
+        <test-method status="PASS" signature="startApp(java.lang.reflect.Method)[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="startApp" is-config="true" duration-ms="44442" started-at="2016-05-30T11:39:15Z" finished-at="2016-05-30T11:40:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.site.HomePageTest1.testMethodOne_10() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="killServer(org.testng.ITestResult)[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="killServer" is-config="true" duration-ms="1505" started-at="2016-05-30T11:40:00Z" finished-at="2016-05-30T11:40:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethodOne_10 on [HomePageTest1 passed=0 failed=0 skipped=0] status=SKIP method=HomePageTest1.testMethodOne_10()[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killServer -->
+        <test-method status="SKIP" signature="testMethodOne_10()[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="testMethodOne_10" duration-ms="0" started-at="2016-05-30T11:40:00Z" finished-at="2016-05-30T11:40:00Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipped because property was set to :::AndroidDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipped because property was set to :::AndroidDriver
+	at com.appium.manager.AppiumParallelTest.onTestStart(AppiumParallelTest.java:459)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1700)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1675)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:619)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodOne_10 -->
+        <test-method status="PASS" signature="startApp(java.lang.reflect.Method)[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="startApp" is-config="true" duration-ms="16597" started-at="2016-05-30T11:40:01Z" finished-at="2016-05-30T11:40:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.site.HomePageTest1.testMethodOne_11() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="testMethodOne_11()[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="testMethodOne_11" duration-ms="9027" started-at="2016-05-30T11:40:18Z" finished-at="2016-05-30T11:40:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodOne_11 -->
+        <test-method status="PASS" signature="killServer(org.testng.ITestResult)[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="killServer" is-config="true" duration-ms="1111" started-at="2016-05-30T11:40:27Z" finished-at="2016-05-30T11:40:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethodOne_11 on [HomePageTest1 passed=0 failed=0 skipped=0] status=SUCCESS method=HomePageTest1.testMethodOne_11()[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killServer -->
+        <test-method status="PASS" signature="startApp(java.lang.reflect.Method)[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="startApp" is-config="true" duration-ms="18230" started-at="2016-05-30T11:40:28Z" finished-at="2016-05-30T11:40:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.site.HomePageTest1.testMethodOne_6() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="testMethodOne_6()[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="testMethodOne_6" duration-ms="13098" started-at="2016-05-30T11:40:46Z" finished-at="2016-05-30T11:40:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodOne_6 -->
+        <test-method status="PASS" signature="killServer(org.testng.ITestResult)[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="killServer" is-config="true" duration-ms="1373" started-at="2016-05-30T11:40:59Z" finished-at="2016-05-30T11:41:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethodOne_6 on [HomePageTest1 passed=0 failed=0 skipped=0] status=SUCCESS method=HomePageTest1.testMethodOne_6()[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killServer -->
+        <test-method status="PASS" signature="startApp(java.lang.reflect.Method)[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="startApp" is-config="true" duration-ms="14428" started-at="2016-05-30T11:41:01Z" finished-at="2016-05-30T11:41:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.site.HomePageTest1.testMethodOne_7() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="FAIL" signature="testMethodOne_7()[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="testMethodOne_7" duration-ms="4546" started-at="2016-05-30T11:41:15Z" finished-at="2016-05-30T11:41:20Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.23 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'shambhu', ip: '192.168.1.192', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=E:/Woekspace/Appium-Grid-For-Android/src/example/AndroidCalculator.apk, appPackage=com.android2.calculator3, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=ERAX416BA002260, platform=LINUX, appActivity=com.android2.calculator3.Calculator, desired={app=E:/Woekspace/Appium-Grid-For-Android/src/example/AndroidCalculator.apk, appPackage=com.android2.calculator3, appActivity=com.android2.calculator3.Calculator, platformVersion=5.X, browserName=, platformName=Android, deviceName=Android}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, browserName=, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: c234189c-05d3-4f01-ba9e-b0fee86bb74b
+*** Element info: {Using=id, value=com.android2.calculator3:id/digit33}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.23 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'shambhu', ip: '192.168.1.192', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=E:/Woekspace/Appium-Grid-For-Android/src/example/AndroidCalculator.apk, appPackage=com.android2.calculator3, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=ERAX416BA002260, platform=LINUX, appActivity=com.android2.calculator3.Calculator, desired={app=E:/Woekspace/Appium-Grid-For-Android/src/example/AndroidCalculator.apk, appPackage=com.android2.calculator3, appActivity=com.android2.calculator3.Calculator, platformVersion=5.X, browserName=, platformName=Android, deviceName=Android}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, browserName=, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: c234189c-05d3-4f01-ba9e-b0fee86bb74b
+*** Element info: {Using=id, value=com.android2.calculator3:id/digit33}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:59)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:51)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.test.site.HomePageTest1.testMethodOne_7(HomePageTest1.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodOne_7 -->
+        <test-method status="PASS" signature="killServer(org.testng.ITestResult)[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="killServer" is-config="true" duration-ms="4843" started-at="2016-05-30T11:41:20Z" finished-at="2016-05-30T11:41:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethodOne_7 on [HomePageTest1 passed=0 failed=0 skipped=0] status=FAILURE method=HomePageTest1.testMethodOne_7()[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killServer -->
+        <test-method status="PASS" signature="startApp(java.lang.reflect.Method)[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="startApp" is-config="true" duration-ms="14037" started-at="2016-05-30T11:41:25Z" finished-at="2016-05-30T11:41:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.site.HomePageTest1.testMethodOne_8() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="testMethodOne_8()[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="testMethodOne_8" duration-ms="8500" started-at="2016-05-30T11:41:39Z" finished-at="2016-05-30T11:41:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodOne_8 -->
+        <test-method status="PASS" signature="killServer(org.testng.ITestResult)[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="killServer" is-config="true" duration-ms="986" started-at="2016-05-30T11:41:47Z" finished-at="2016-05-30T11:41:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethodOne_8 on [HomePageTest1 passed=0 failed=0 skipped=0] status=SUCCESS method=HomePageTest1.testMethodOne_8()[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killServer -->
+        <test-method status="PASS" signature="startApp(java.lang.reflect.Method)[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="startApp" is-config="true" duration-ms="13595" started-at="2016-05-30T11:41:48Z" finished-at="2016-05-30T11:42:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.site.HomePageTest1.testMethodOne_9() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="testMethodOne_9()[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="testMethodOne_9" duration-ms="8636" started-at="2016-05-30T11:42:02Z" finished-at="2016-05-30T11:42:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodOne_9 -->
+        <test-method status="PASS" signature="killServer(org.testng.ITestResult)[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="killServer" is-config="true" duration-ms="1111" started-at="2016-05-30T11:42:10Z" finished-at="2016-05-30T11:42:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethodOne_9 on [HomePageTest1 passed=0 failed=0 skipped=0] status=SUCCESS method=HomePageTest1.testMethodOne_9()[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killServer -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:[HomePageTest1 passed=0 failed=0 skipped=0]]" name="afterClass" is-config="true" duration-ms="739" started-at="2016-05-30T11:42:11Z" finished-at="2016-05-30T11:42:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.test.site.HomePageTest1 -->
+    </test> <!-- TestNG Test0 -->
+  </suite> <!-- TestNG Forum -->
+</testng-results>
